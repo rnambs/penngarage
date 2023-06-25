@@ -1,0 +1,32 @@
+#upload-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    bottom: 50%;
+    margin-left: 35%;
+    margin-top: 15%;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  #upload-button {
+      margin: 20px 20px 20px 20px;
+  }
+  
+  .avatar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  #innerBox {
+      position: absolute;
+      top: 25%;
+      left: 35%;
+      background-color: rgba(217,217,217,1);
+      border-radius: 10px;
+      z-index: +500;
+      outline-style: groove;
+      outline-color: black;
+  }

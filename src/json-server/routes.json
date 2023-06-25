@@ -1,0 +1,14 @@
+{
+    "/messages": "/messages",
+    "/users/:userId/bookmarks": "/bookmarks",
+    "/posts/search?searchQuery=:searchQuery&page=:page&limit=:limit&sortBy=urgent&priceRangeLow=:priceRangeLow&priceRangeHigh=:priceRangeHigh&category=:category": "/posts?_page=:page&_limit=:limit&title_like=:searchQuery&category_like=:category&price_gte=:priceRangeLow&price_lte=:priceRangeHigh&_sort=availableUntil&_order=asc",
+    "/posts/search?searchQuery=:searchQuery&page=:page&limit=:limit&sortBy=recent&priceRangeLow=:priceRangeLow&priceRangeHigh=:priceRangeHigh&category=:category": "/posts?_page=:page&_limit=:limit&title_like=:searchQuery&category_like=:category&price_gte=:priceRangeLow&price_lte=:priceRangeHigh&_sort=postedOn&_order=desc",
+    "/posts/search?searchQuery=:searchQuery&page=:page&limit=:limit&sortBy=price_asc&priceRangeLow=:priceRangeLow&priceRangeHigh=:priceRangeHigh&category=:category": "/posts?_page=:page&_limit=:limit&title_like=:searchQuery&category_like=:category&price_gte=:priceRangeLow&price_lte=:priceRangeHigh&_sort=price&_order=asc",
+    "/posts/search?searchQuery=:searchQuery&page=:page&limit=:limit&sortBy=price_desc&priceRangeLow=:priceRangeLow&priceRangeHigh=:priceRangeHigh&category=:category": "/posts?_page=:page&_limit=:limit&title_like=:searchQuery&category_like=:category&price_gte=:priceRangeLow&price_lte=:priceRangeHigh&_sort=price&_order=desc",
+    "/login?username=:username&password=:password": "/users?username=:username&password=:password",
+    "/login/new-user?username=:username": "/users?username=:username",
+    "/login/new-user": "/users",
+    "/login/forgot?firstName=:firstName&lastName=:lastName&email=:email": "/users?firstName=:firstName&lastName=:lastName&email=:email",
+    "/login/forgot": "/users",
+    "/login/forgot/:id": "/users/:id"
+}   

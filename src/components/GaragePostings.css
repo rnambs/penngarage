@@ -1,0 +1,77 @@
+#postSection {
+    position: relative; 
+    left: 0px; 
+    top: 200px;
+}
+
+#postingsSortTitle {
+    position: absolute;
+    width: 517px;
+    height: 77px;
+    left: 48px;
+    top: 672px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 680;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#addPostBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 41px 68px;
+    gap: 10px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    position: absolute;
+    width: 228px;
+    height: 80px;
+    left: 900px;
+    top: 672px;
+
+    background: #605c5c;
+    border-radius: 10px;
+    color:white;
+
+    font-family: 'Candara';
+    font-weight: 400;
+    font-size: 20px;
+
+    transition: all 0.5s;
+
+    white-space: nowrap;
+}
+  
+#addPostBtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+#addPostBtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+#addPostBtn:hover span {
+    padding-right: 20px;
+}
+  
+#addPostBtn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+

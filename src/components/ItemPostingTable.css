@@ -1,0 +1,9 @@
+.item-posting-table .item-posting {
+    margin-bottom: 1rem;
+}
+
+.item-posting-table>.col-12 {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}

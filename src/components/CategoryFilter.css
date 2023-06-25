@@ -1,0 +1,28 @@
+.category-filter>.col-12 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.sort-by-radio-btns>h5,
+.price-radio-btns>h5,
+.category-radio-btns>h5 {
+    margin-bottom: 1rem;
+}
+
+.sort-by-radio-btn,
+.price-radio-btn,
+.category-radio-btn {
+    margin-bottom: 1rem;
+}
+
+.sort-by-radio-btn>input,
+.price-radio-btn>input,
+.category-radio-btn>input {
+    cursor: pointer;
+}
+
+.sort-by-radio-btn>span,
+.price-radio-btn>span,
+.category-radio-btn>span {
+    margin-left: 0.25rem;
+}

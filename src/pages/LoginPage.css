@@ -1,0 +1,84 @@
+#login-page {
+  /* for testing purposes... when implementing, please remove height: 200vh 
+    height: 200vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#login-page > div {
+  margin-top: -200px;
+  width: 100%;
+}
+
+#login-page-logo {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+#login-text .row {
+  justify-content: right;
+  /* text-align: center; */
+  /* vertical-align: center; */
+  padding-right: 0.2rem;
+  /* margin-top: 0.1rem; */
+  font-size: 1.2rem;
+}
+
+#id-text {
+  margin-bottom: 0.8rem;
+}
+
+#id-box {
+  margin-bottom: 0.8rem;
+}
+
+/* #pw-text {
+    padding-bottom: 0.5rem;
+}
+
+#pw-box {
+    padding-bottom: 0.5rem;
+} */
+
+#login-box {
+    /* display: flex;
+    justify-content: center; */
+}
+
+#login-box .row {
+    /* padding-left: 5%; */
+    /* justify-content: center;
+    display: flex;*/
+    align-items: center;
+}
+
+#login-box .row > input {
+  /* justify-items: center; */
+  text-align: center;
+}
+
+/* #login-box .row {
+    padding-bottom: 0.5rem;
+} */
+
+#login-button {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+#link-row .col-6 a {
+  color: black;
+}
+
+#link-row .col-6 {
+  padding-top: 1rem;
+}
+
+#error {
+  color: red;
+  font-weight: bold;
+  padding-top: 1rem;
+}

@@ -1,0 +1,243 @@
+#addPostPic {
+  position: fixed;
+  left: 318px;
+  top: 88px;
+
+  width: 352px;
+  height: 352px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
+
+  border: 2px dashed #555;
+}
+
+#addPostPicLabel {
+  position: fixed;
+  left: 271px;
+  top: 457px;
+}
+
+#addPostPicLink {
+  position: fixed;
+  left: 360px;
+  top: 454px;
+
+  width: 310px;
+  height: 32px;
+  border-radius: 10px;
+}
+
+#sellMethodText {
+  position: fixed;
+  left: 346px;
+  top: 475px;
+
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 680;
+  font-size: 38px;
+  line-height: 77px;
+
+  white-space: nowrap;
+    
+  color: #000000;
+}
+
+#addPostPriceLabel {
+  position: fixed;
+  left: 346px;
+  top: 547px;
+}
+
+#addPostPrice {
+  position: fixed;
+  left: 446px;
+  top: 547px;
+
+  width: 100px;
+  height: 32px;
+  border-radius: 10px;
+}
+
+#addPostAucEndLabel {
+  position: fixed;
+  left: 346px;
+  top: 587px;
+}
+
+#addPostAucEnd {
+  position: fixed;
+  left: 446px;
+  top: 587px;
+
+  width: 162px;
+  height: 32px;
+  border-radius: 10px;
+}
+
+#addPostCategoryLabel {
+  position: fixed;
+  left: 346px;
+  top: 651px;
+}
+
+#addPostCategories {
+  position: fixed;
+  left: 425px;
+  top: 649px;
+
+  width: 183px;
+  height: 32px;
+  border-radius: 10px;
+}
+
+.addPostRad {
+  position: fixed;
+  left: 298px;
+
+  transform: scale(2);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+#fPriceRad {
+  top: 556px;
+}
+
+#aucRad {
+  top: 596px;
+}
+
+#addPostTitleLabel {
+  position: fixed;
+  left: 838px;
+  top: 116px;
+}
+
+#addPostTitle {
+  position: fixed;
+  left: 881px;
+  top: 114px;
+
+  width: 297px;
+  height: 32px;
+  border-radius: 10px;
+}
+
+#addPostSBDLabel {
+  position: fixed;
+  left: 838px;
+  top: 186px;
+}
+
+#addPostSBD {
+  position: fixed;
+  left: 938px;
+  top: 184px;
+
+  width: 186px;
+  height: 32px;
+  border-radius: 10px;
+}
+
+#addPostDescLabel {
+  position: fixed;
+  left: 940px;
+  top: 249px;
+}
+
+#addPostDesc {
+  position: fixed;
+  left: 729px;
+  top: 280px;
+
+  width: 516px;
+  height: 291px;
+
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 44px;
+
+  border-radius: 10px;
+
+  resize: none;
+}
+
+.addPostLabel {
+  border-block: 2px solid black ;
+}
+
+.popupBtnAddPost {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 41px 68px;
+  gap: 10px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  
+  width: 268px;
+  height: 96px;
+  
+  background: #e2c484;
+  border-radius: 10px;
+  z-index: +500;
+
+  font-family: 'Candara';
+  font-weight: 400;
+  font-size: 18px;
+
+}
+
+.popupBtnAddPost:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.popupBtnAddPost:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#addPostBackBtn {
+  position: absolute;
+  left: 463px;
+  top: 518px;
+  z-index: +500;
+}
+
+#addPostCCBtn {
+  position: absolute;
+  left: 740px;
+  top: 518px;
+  z-index: +500;
+}
+
+#addPostBox {
+  position: fixed;
+
+  top: 65px; 
+  left: 250px;
+  width: 1035px;
+  height: 640px;
+  background-color: rgba(217,217,217,1);
+
+  border-radius: 10px;
+  z-index: +500;
+
+  outline-style: groove;
+  outline-color: black;
+}
+
+#addPostDarken {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+
+  z-index: +450;
+
+  opacity: 0;
+  transition: opacity 0.5s;
+}

@@ -1,0 +1,1 @@
+this folder is for media documents, like images, videos, etc.

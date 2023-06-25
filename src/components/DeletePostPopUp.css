@@ -1,0 +1,34 @@
+#delPostPic {
+  position: fixed;
+  width: 352px;
+  height: 352px;
+  left: 286px;
+  top: 193px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  border: 5px solid #555;
+
+  z-index: +500;
+}
+
+#delPostText {
+  position: fixed;
+  width: 487px;
+  height: 44px;
+  left: 729px;
+  top: 272px;
+  
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: +500;
+}

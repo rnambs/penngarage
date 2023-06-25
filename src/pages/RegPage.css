@@ -1,0 +1,10 @@
+#reg-page {
+    /* for testing purposes... when implementing, please remove height: 200vh */
+    height: 200vh;
+}
+
+#title-text {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}

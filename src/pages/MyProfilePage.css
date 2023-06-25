@@ -1,0 +1,114 @@
+.page-container {
+    margin-left: 25px;
+    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 0.15fr 0.98fr;
+    grid-gap: 5px;
+    height: 90vh;
+    position: inherit;
+}
+
+#infoBox-left {
+    border-radius: 10px;
+    border-style: solid;
+    height: 100%;
+    width: 100%;
+    color: black;
+    position: relative;
+}
+
+#contentBox-right {
+    margin-top: -0.65rem;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    position: relative;
+
+}
+
+.profile-img {
+    margin: 4rem 0rem 2rem 0rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.display-list {
+    text-align: left;
+    text-indent: 1rem;
+    padding: 1rem 0rem 2rem 0rem;
+    font-size: 1rem;
+    margin: 1rem 1rem 1rem 2rem;
+    border-style: solid;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 10px;
+}
+
+#change-pic-button {
+    font-size: 1.00rem;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
+#edit-button {
+    text-decoration: none;
+    font-size: 1.00rem;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#log-out-button {
+    text-decoration: none;
+    margin: 7rem 0rem 2.5rem 0rem;
+    font-size: 1.25rem;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.text {
+    margin: 5px;
+    text-align: left;
+    text-decoration: underline;
+    text-indent: 1rem;
+}
+
+#contains-post-info {
+    height: 100%;
+    width: 95%;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.contains-post {
+    height: 70%;
+    width: 95%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.align {
+    margin: 1rem;
+    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 0.99fr 0.01fr;
+}
+
+.show-more {
+    font-size: 0.75rem;
+    width: 5.75rem;
+    margin-left: 9rem;
+}
+
+.item-table {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+a:link {
+    color: black;
+}

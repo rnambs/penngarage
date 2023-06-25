@@ -1,0 +1,195 @@
+.item-posting {
+    background-color: white;
+    height: 450px;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: black 1px solid;
+    position: relative;
+}
+
+.item-posting *::-webkit-scrollbar {
+    display: none;
+}
+
+.item-posting>.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.item-posting-image {
+    height: 180px;
+    background-color: white;
+    margin-bottom: 0.5rem;
+}
+
+.item-posting-image>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.item-posting-title {
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.item-posting-title>h5 {
+    margin: 0;
+}
+
+.item-posting-price {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: end;
+    font-size: 1.25rem;
+}
+
+.item-posting-title,
+.item-posting-price {
+    height: calc(1.25rem * 1.2 + 0.25rem);
+}
+
+.item-posting-seller {
+    font-weight: 500;
+}
+
+.item-posting-seller>a {
+    text-decoration: none;
+}
+
+.item-posting-available-until-date {
+    margin-bottom: 0.5rem;
+}
+
+.item-posting-seller,
+.item-posting-posted-date,
+.item-posting-available-until-date {
+    display: flex;
+    text-align: start;
+}
+
+.item-posting-title>h5,
+.item-posting-price>div,
+.item-posting-seller>a:nth-child(2),
+.item-posting-posted-date>div:nth-child(2),
+.item-posting-available-until-date>div:nth-child(2) {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.item-posting-description {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    height: 5.5rem;
+    text-align: start;
+    margin-bottom: 1.25rem;
+}
+
+.item-posting-description::-webkit-scrollbar {
+    display: block;
+    width: 8px;
+}
+
+.item-posting-description::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.item-posting-description::-webkit-scrollbar-thumb {
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 20px;
+    border: transparent;
+}
+
+.item-posting-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-posting-icons>div:nth-child(2)>svg {
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+.item-posting-icons>div>svg {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+div.item-posting-bookmark-alert {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    position: absolute;
+    left: 0;
+    width: 100%
+}
+
+.item-posting-edit-tooltip hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.item-posting-edit-tooltip {
+    cursor: pointer;
+}
+
+.item-posting-bid-popup {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(1, 1, 1, 0.9);
+    color: white;
+    padding: 1rem;
+}
+
+.item-posting-bid-popup>svg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.item-posting-bid-popup>div {
+    width: 100%;
+}
+
+.item-posting-bid-popup-current-bid {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.new-bid-form {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.new-bid-form>input {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.new-bid-form>button {
+    margin-top: 0.5rem;
+    background-color: transparent;
+    color: white;
+    border: white 1px solid;
+    border-radius: 7px;
+    padding: 0.25rem;
+}
+
+.item-posting-bid-popup-err-msg {
+    margin-top: 0.5rem;
+    color: red;
+}
